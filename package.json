@@ -1,0 +1,24 @@
+{
+  "name": "package-json",
+  "version": "1.0.0",
+  "description": "My first app ",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/dejj1/package-json.git"
+  },
+  "author": "OYELAKIN EMMANUEL",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/dejj1/package-json/issues"
+  },
+  "homepage": "https://github.com/dejj1/package-json#readme",
+  "dependencies": {
+    "express": "^4.18.2",
+    "joi": "^17.9.1",
+    "mongoose": "^7.0.3"
+  }
+}
