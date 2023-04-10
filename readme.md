@@ -1,8 +1,8 @@
-##1. The Event Loop
+<h3>1. The Event Loop:</h3>
 The event loop is a programming concept used in asynchronous programming(concurrent execution of multiple tasks ), particularly in JavaScript, that allows for non-blocking I/O operations. The event loop runs continuously, waiting for events to occur, and then processes those events one by one.
 
 
-##2. Six phases of the event loop
+<h3>2. Six phases of the event loop</h3>
 In JavaScript, the event loop consists of six phases, each of which performs a specific task in the processing of events. These phases are as follows:
 
 
@@ -20,16 +20,16 @@ In JavaScript, the event loop consists of six phases, each of which performs a s
 
 Once all phases have been completed, the event loop returns to the first phase and begins the process again.
 
-##3. List of some best practices in server-side code development
+<h3>3. List of some best practices in server-side code development</h3>
 (i)Focus on Code Quality - use a formatter like Prettier and a linter like ESLint
 (ii)Prefer ES6+ and Async/Await
 (iii)Keep Code Small - Modularize your codes and employ Microservice architecture
 (iv)Handle Errors.
 
-##4. What is NPM5: How do you initialize a package in npm
+<h3>4. What is NPM5: How do you initialize a package in npm</h3>
 NPM5 (Node Package Manager 5) is a version of the Node.js package manager, which is used to install and manage third-party packages and dependencies for Node.js-based applications.
 
-##5. To initialize a package in NPM
+<h3>5. To initialize a package in NPM</h3>
 <li>Open your terminal or command prompt.</li> 
 <li>Navigate to the directory where you want to create your package.</li>
 <li>Type "npm init" and press Enter.</li>
@@ -37,5 +37,5 @@ NPM5 (Node Package Manager 5) is a version of the Node.js package manager, which
 <li>Once you've provided all the necessary information, review the package.json file that was created.</li>
 <li>Save or edit and save package.json file</li>
 
-##6. How to run a script in the package.json
+<h3>6. How to run a script in the package.json</h3>
 To run a script defined in the package.json file in a Node.js project, you can use the npm run command followed by the script name.
